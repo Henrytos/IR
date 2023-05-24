@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --color-primary:#e0e1dd;
+    --color-secondary:#778da9;
+    --color-tertiary:#415a77;
+    --color-quaternary:#1b263b;
+    --color-quinary:#0d1b2a;
+    --font-title:'Gotika';
+    --font-text:'Poppins', sans-serif;;
+}
+@font-face {
+    font-family: 'Gotika';
+    src: url(../assets/fonts/GotikaStrict_PERSONAL_USE_ONLY.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-text);
+}
+/*cabeçalho*/
+header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-quaternary);
+    padding: 40px;
+}
+header>h3{
+    color: var(--color-primary);
+    font-family: var(--font-title);
+
+}
+header> nav >a{
+
+}
