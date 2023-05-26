@@ -28,12 +28,51 @@ header{
     justify-content: space-between;
     background-color: var(--color-quaternary);
     padding: 40px;
+    
 }
 header>h3{
     color: var(--color-primary);
     font-family: var(--font-title);
-
+}
+header> nav {
+    display: flex;
+    gap: 20px;
 }
 header> nav >a{
+    all: unset;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    /* backdrop-filter: blur(100px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 
+}
+.content{
+    width: 70vw;
+    margin: auto;
+ 
+}
+.video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    
+}
+/*benificios*/
+.benificios{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
 }
