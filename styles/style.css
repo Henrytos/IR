@@ -1,3 +1,50 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+:root {
+  --color-primary: #1f4068;
+  --color-terceary: #4caf50;
+  --color-sencudary: #525252;
+  --color-quartyary: #f5f5f5;
+  --font-text: "Roboto", sans-serif;
+  --font-title: "Lato", sans-serif;
+}
+@font-face {
+  font-family: "font-title";
+  src: url("../assets/fonts/Rostley_PERSONAL_USE_ONLY.otf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--font-text);
+}
+header {
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  background-color: var(--color-sencudary);
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+header > h3 > span {
+  font-family: "font-title";
+  background-image: linear-gradient(
+    to right,
+    var(--color-terceary),
+    var(--color-primary)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: bolder;
+}
+header > nav > a {
+  all: unset;
+  color: #f5f5f5;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -48,6 +95,7 @@ header> nav >a{
     box-shadow: 5px 5px 5px rgb(0, 0, 0); */
 
 }
+
 .content{
     width: 70vw;
     margin: auto;
